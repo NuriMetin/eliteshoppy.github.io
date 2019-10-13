@@ -1,0 +1,808 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>About</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="styles/about.css">
+</head>
+
+<body>
+    <header>
+        <!-- top header started -->
+        <div class="top-header">
+
+            <ul>
+                <li class="sign-in">
+                    <a href="#">
+                        <i class="fas fa-unlock-alt"></i>
+                        <span id="signIn">Sign In</span>
+                    </a>
+                </li>
+                <li class="sign-up">
+                    <a href="#"><i class="fas fa-edit"></i>
+                        <span  id="signUp">Sign Up</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#"><i class="fas fa-phone"></i>
+                        <span>Call : 01234567898</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#"><i class="far fa-envelope"></i>
+                        <span>info@example.com</span></a>
+                </li>
+                <div class="clearfix">
+
+                </div>
+            </ul>
+
+        </div>
+        <!-- sign in elements started -->
+        <div  id="signInElements" class="sign-in-elements">
+            <div class="container-fluid col-md-12">
+                <button id="signInClose" class="close">×</button>
+                <div class="row">
+                    <div class="sign-in-left-elements col-md-8">
+                        <h4><span>SIGN IN </span>NOW</h4>
+                        <form>
+                            <div class="elements-form">
+                                <label class="name-style col-md-10">Name</label>
+                                <input type="text" class="name-input col-md-10" placeholder="Name">
+                            </div>
+                            <div class="elements-form">
+                                <label class="email-style col-md-10">Email</label>
+                                <input type="email " class="email-input col-md-10" placeholder="Email">
+                            </div>
+                            <button type="submit" class="btn-sign" id="btn-sign-in">SIGN IN</button>
+                        </form>
+                        <ul class="social-nav model-3d-0 footer-social w3_agile_social top_agile_third">
+                            <li><a href="#" class="facebook">
+                                    <div class="front"><i class="fab fa-facebook-f"></i></div>
+                                    <div class="back"><i class="fab fa-facebook-f"></i></div>
+                                </a></li>
+                            <li><a href="#" class="twitter">
+                                    <div class="front"><i class="fab fa-twitter"></i></div>
+                                    <div class="back"><i class="fab fa-twitter"></i></div>
+                                </a></li>
+                            <li><a href="#" class="instagram">
+                                    <div class="front"><i class="fab fa-instagram"></i></div>
+                                    <div class="back"><i class="fab fa-instagram"></i></div>
+                                </a></li>
+                            <li><a href="#" class="pinterest">
+                                    <div class="front"><i class="fab fa-linkedin-in"></i></div>
+                                    <div class="back"><i class="fab fa-linkedin-in"></i></div>
+                                </a></li>
+
+                        </ul>
+                        <div class="clearfix"></div>
+                        <span class="sign-foot" id="signUp">Don't have an account?</span>
+
+
+                    </div>
+
+                    <div class="sign-in-right-elements col-md-4">
+
+                        <div class="image">
+                            <img src="images/log_pic.jpg" alt="sign in image">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- sign up elements started -->
+        <div id="signUpElements" class="sign-up-elements">
+            <div class="container-fluid">
+                <button  id="signUpClose"  class="close">×</button>
+                <div class="row">
+                    <div class=" sign-up-left-elements col-md-8">
+                        <h4><span>SIGN UP </span>NOW</h4>
+                        <form>
+                            <div class="elements-form">
+                                <label class="name-style col-md-10">Name</label>
+                                <input type="text" class="name-input col-md-10" placeholder="Name">
+                            </div>
+                            <div class="elements-form">
+                                <label class="email-style col-md-10">Email</label>
+                                <input type="email " class="email-input col-md-10" placeholder="Email">
+                            </div>
+                            <div class="elements-form">
+                                <label class="password-style col-md-10">Password</label>
+                                <input type="password" class="password-input col-md-10" placeholder="Password">
+                            </div>
+                            <div class="elements-form">
+                                <label class="confirm-password-style col-md-10">Confirm Password</label>
+                                <input type="password" class="confirm-password-input col-md-10"
+                                    placeholder="Confirm password">
+                            </div>
+                            <button type="submit" class="btn-sign" id="btn-sign-up">SIGN UP</button>
+                        </form>
+                        <ul class="social-nav model-3d-0 footer-social w3_agile_social top_agile_third">
+                            <li><a href="#" class="facebook">
+                                    <div class="front"><i class="fab fa-facebook-f"></i></div>
+                                    <div class="back"><i class="fab fa-facebook-f"></i></div>
+                                </a></li>
+                            <li><a href="#" class="twitter">
+                                    <div class="front"><i class="fab fa-twitter"></i></div>
+                                    <div class="back"><i class="fab fa-twitter"></i></div>
+                                </a></li>
+                            <li><a href="#" class="instagram">
+                                    <div class="front"><i class="fab fa-instagram"></i></div>
+                                    <div class="back"><i class="fab fa-instagram"></i></div>
+                                </a></li>
+                            <li><a href="#" class="pinterest">
+                                    <div class="front"><i class="fab fa-linkedin-in"></i></div>
+                                    <div class="back"><i class="fab fa-linkedin-in"></i></div>
+                                </a></li>
+                        </ul>
+                        <div class="clearfix"></div>
+                        <span class="sign-foot">By clicking register, I agree to your terms</span>
+                    </div>
+
+                    <div class="sign-up-right-elements col-md-4">
+
+                        <div class="image">
+                            <img src="images/log_pic.jpg" alt="sign up image">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- top header ended -->
+        <!-- center header started -->
+        <div class="center-header">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="searh-input col-md-4">
+                        <input type="text" class="searh" id="search" placeholder="Search here...">
+                        <button type="button" class="btn-searh"><i class="fas fa-search"></i></button>
+                    </div>
+                    <div class="col-md-4">
+                        <h1><span>E</span>lite Shoppy</h1>
+                    </div>
+                    <div class="share col-md-4">
+                        <div class="row">
+                            <div class="share-on col-md-4">
+                                <span>Share On :</span>
+                            </div>
+                            <div class="col-md-8">
+                                <ul class="social-nav model-3d-0 footer-social w3_agile_social top_agile_third">
+                                    <li><a href="#" class="facebook">
+                                            <div class="front"><i class="fab fa-facebook-f"></i></div>
+                                            <div class="back"><i class="fab fa-facebook-f"></i></div>
+                                        </a></li>
+                                    <li><a href="#" class="twitter">
+                                            <div class="front"><i class="fab fa-twitter"></i></div>
+                                            <div class="back"><i class="fab fa-twitter"></i></div>
+                                        </a></li>
+                                    <li><a href="#" class="instagram">
+                                            <div class="front"><i class="fab fa-instagram"></i></div>
+                                            <div class="back"><i class="fab fa-instagram"></i></div>
+                                        </a></li>
+                                    <li><a href="#" class="pinterest">
+                                            <div class="front"><i class="fab fa-linkedin-in"></i></div>
+                                            <div class="back"><i class="fab fa-linkedin-in"></i></div>
+                                        </a></li>
+                                </ul>
+                                <div class="clearfix"></div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- center header ended -->
+        <!-- bottom header started -->
+        <div class="bottom-header">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-9">
+                        <nav>
+                            <ul class="navigation">
+                                <li class="underline"><a href="index.html">Home</a>
+                                    <div class="line-transition"></div>
+                                </li>
+                                <li class="line-active  underline"><a href="#">About</a>
+                                    <div class="line-transition"></div>
+                                </li>
+                                <li id="mensLinks" class="underline"><a href="#">Men's Wear<i class="fas fa-caret-down"></i></a>
+                                    <div class="line-transition"></div>
+
+                                </li>
+                                <li id="whomensLinks" class="underline"><a href="#">Women's wear<i class="fas fa-caret-down"></i></a>
+                                    <div class="line-transition"></div>
+                                </li>
+                                <li class="underline"><a href="#">Short Codes<i class="fas fa-caret-down"></i></a>
+                                    <div class="line-transition"></div>
+                                </li>
+                                <li class="underline"><a href="contact.html">Contact</a>
+                                    <div class="line-transition"></div>
+                                </li>
+
+                                <div class="clearfix">
+
+                                </div>
+                            </ul>
+                        </nav>
+                    </div>
+
+                    <div class="card-arrow col-md-3">
+                        <a href="#"><i class="fas fa-cart-arrow-down"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+         <!-- mens wear  started -->
+         <div id="mensLinksElements" class="mens-wear">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="wear-image col-md-6">
+                            <div class="left-bottom"></div>
+                            <div class="top-right"></div>
+                        <img src="images/top2.jpg" alt="mens wear image">
+                    </div>
+                    <div class="wear-links col-md-6">
+                        <div class="row">
+                            <div class="wear-links-left col-md-6">
+                                <ul>
+                                    <li><a href="mens_wear.html">Clothing</a></li>
+                                    <li><a href="mens_wear.html">Wallets</a></li>
+                                    <li><a href="mens_wear.html">Footwear</a></li>
+                                    <li><a href="mens_wear.html">Watches</a></li>
+                                    <li><a href="mens_wear.html">Accessories</a></li>
+                                    <li><a href="mens_wear.html">Bags</a></li>
+                                    <li><a href="mens_wear.html">Caps & Hats</a></li>
+                                </ul>
+                            </div>
+                            <div class="wear-links-right col-md-6">
+                                <ul>
+                                    <li><a href="mens_wear.html">Jewellery</a></li>
+                                    <li><a href="mens_wear.html">Sunglasses</a></li>
+                                    <li><a href="mens_wear.html">Perfumes</a></li>
+                                    <li><a href="mens_wear.html">Beauty</a></li>
+                                    <li><a href="mens_wear.html">Shirts</a></li>
+                                    <li><a href="mens_wear.html">Sunglasses</a></li>
+                                    <li><a href="mens_wear.html">Swimwear</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- mens wear ended -->
+
+        <!-- whomens wear started -->
+        <div id="whomensLinksElements"  class="whomens-wear">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="wear-links col-md-6">
+                        <div class="row">
+                            <div class="wear-links-left col-md-6">
+                                <ul>
+                                    <li><a href="whomens_wear.html">Clothing</a></li>
+                                    <li><a href="whomens_wear.html">Wallets</a></li>
+                                    <li><a href="whomens_wear.html">Footwear</a></li>
+                                    <li><a href="whomens_wear.html">Watches</a></li>
+                                    <li><a href="whomens_wear.html">Accessories</a></li>
+                                    <li><a href="whomens_wear.html">Bags</a></li>
+                                    <li><a href="whomens_wear.html">Caps & Hats</a></li>
+                                </ul>
+                            </div>
+                            <div class="wear-links-right col-md-6">
+                                <ul>
+                                    <li><a href="whomens_wear.html">Jewellery</a></li>
+                                    <li><a href="whomens_wear.html">Sunglasses</a></li>
+                                    <li><a href="whomens_wear.html">Perfumes</a></li>
+                                    <li><a href="whomens_wear.html">Beauty</a></li>
+                                    <li><a href="whomens_wear.html">Shirts</a></li>
+                                    <li><a href="whomens_wear.html">Sunglasses</a></li>
+                                    <li><a href="whomens_wear.html">Swimwear</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wear-image col-md-6">
+                        <div class="left-bottom"></div>
+                        <div class="top-right"></div>
+                    <img src="images/top1.jpg" alt="mens wear image">
+                </div>
+                </div>
+            </div>
+        </div>
+        <!-- whomens wear ended -->
+        <!-- bottom header ended -->
+    </header>
+    <!-- header ended -->
+    <!-- about us started -->
+    <div class="about-us">
+        <div class="container-fluid">
+            <div class="row">
+                <h1 class="col-md-12"><span>about </span>us</h1>
+                <h5 class="page"><span>Home </span>| about</h5>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- about us ended -->
+
+    <!-- elite shoppy started -->
+
+    <div class="elite-shoppy">
+        <div class="container">
+            <div class="row">
+                <div class="shoppy-image col-md-6">
+                    <img src="images/ab_pic.jpg" alt="elite shoppy image">
+                </div>
+                <div class="shoppy-text col-md-6">
+                    <h2>ABOUT OUR ELITE <span>SHOPPY</span></h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elPellentesque vehicula augue eget nisl
+                        ullamcorper, molestie blandit ipsum auctor. Mauris volutpat augue dolor..</p>
+
+                    <p>Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut lab ore et dolore magna aliqua.
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco. labore et dolore magna aliqua.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- elite shoppy ended -->
+
+    <!-- our team started -->
+    <div class="our-team">
+        <div class="container">
+            <h1>OUR TEAM <span>MEMBERS</span></h1>
+            <div class="row">
+                <div class="team-members col-md-3">
+                    <img src="images/t1.jpg" alt="team member 1">
+                    <div class="team-animate">
+                        <h2>Joanna Vilken</h2>
+                        <span>Add Short Description</span>
+                        <ul class="social-nav model-3d-0 footer-social w3_agile_social top_agile_third">
+                            <li><a href="#" class="facebook">
+                                    <div class="front"><i class="fab fa-facebook-f"></i></div>
+                                    <div class="back"><i class="fab fa-facebook-f"></i></div>
+                                </a></li>
+                            <li><a href="#" class="twitter">
+                                    <div class="front"><i class="fab fa-twitter"></i></div>
+                                    <div class="back"><i class="fab fa-twitter"></i></div>
+                                </a></li>
+                            <li><a href="#" class="instagram">
+                                    <div class="front"><i class="fab fa-instagram"></i></div>
+                                    <div class="back"><i class="fab fa-instagram"></i></div>
+                                </a></li>
+                            <li><a href="#" class="pinterest">
+                                    <div class="front"><i class="fab fa-linkedin-in"></i></div>
+                                    <div class="back"><i class="fab fa-linkedin-in"></i></div>
+                                </a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="team-members col-md-3">
+                    <img src="images/t2.jpg" alt="team member 2">
+                    <div class="team-animate">
+                        <h2>Anika Mollik</h2>
+                        <span>Add Short Description</span>
+                        <ul class="social-nav model-3d-0 footer-social w3_agile_social top_agile_third">
+                            <li><a href="#" class="facebook">
+                                    <div class="front"><i class="fab fa-facebook-f"></i></div>
+                                    <div class="back"><i class="fab fa-facebook-f"></i></div>
+                                </a></li>
+                            <li><a href="#" class="twitter">
+                                    <div class="front"><i class="fab fa-twitter"></i></div>
+                                    <div class="back"><i class="fab fa-twitter"></i></div>
+                                </a></li>
+                            <li><a href="#" class="instagram">
+                                    <div class="front"><i class="fab fa-instagram"></i></div>
+                                    <div class="back"><i class="fab fa-instagram"></i></div>
+                                </a></li>
+                            <li><a href="#" class="pinterest">
+                                    <div class="front"><i class="fab fa-linkedin-in"></i></div>
+                                    <div class="back"><i class="fab fa-linkedin-in"></i></div>
+                                </a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="team-members col-md-3">
+                    <img src="images/t3.jpg" alt="team member 3">
+                    <div class="team-animate">
+                        <h2>Megali Deo</h2>
+                        <span>Add Short Description</span>
+                        <ul class="social-nav model-3d-0 footer-social w3_agile_social top_agile_third">
+                            <li><a href="#" class="facebook">
+                                    <div class="front"><i class="fab fa-facebook-f"></i></div>
+                                    <div class="back"><i class="fab fa-facebook-f"></i></div>
+                                </a></li>
+                            <li><a href="#" class="twitter">
+                                    <div class="front"><i class="fab fa-twitter"></i></div>
+                                    <div class="back"><i class="fab fa-twitter"></i></div>
+                                </a></li>
+                            <li><a href="#" class="instagram">
+                                    <div class="front"><i class="fab fa-instagram"></i></div>
+                                    <div class="back"><i class="fab fa-instagram"></i></div>
+                                </a></li>
+                            <li><a href="#" class="pinterest">
+                                    <div class="front"><i class="fab fa-linkedin-in"></i></div>
+                                    <div class="back"><i class="fab fa-linkedin-in"></i></div>
+                                </a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="team-members col-md-3">
+                    <img src="images/t4.jpg" alt="team member 4">
+                    <div class="team-animate">
+                        <h2>Retas Word</h2>
+                        <span>Add Short Description</span>
+                        <ul class="social-nav model-3d-0 footer-social w3_agile_social top_agile_third">
+                            <li><a href="#" class="facebook">
+                                    <div class="front"><i class="fab fa-facebook-f"></i></div>
+                                    <div class="back"><i class="fab fa-facebook-f"></i></div>
+                                </a></li>
+                            <li><a href="#" class="twitter">
+                                    <div class="front"><i class="fab fa-twitter"></i></div>
+                                    <div class="back"><i class="fab fa-twitter"></i></div>
+                                </a></li>
+                            <li><a href="#" class="instagram">
+                                    <div class="front"><i class="fab fa-instagram"></i></div>
+                                    <div class="back"><i class="fab fa-instagram"></i></div>
+                                </a></li>
+                            <li><a href="#" class="pinterest">
+                                    <div class="front"><i class="fab fa-linkedin-in"></i></div>
+                                    <div class="back"><i class="fab fa-linkedin-in"></i></div>
+                                </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- our team ended -->
+
+
+    <!-- shedula started -->
+    <div class="shadula col-md-12">
+        <div class="row">
+            <div class="shadula-image col-md-6">
+                <img src="images/mid.jpg" alt="secula image">
+            </div>
+            <div class="col-md-6 shadula-counter">
+                <div class="shadula-counter-back">
+                    <div class="shadula-counter-front">
+                        <div class="row">
+                            <h3>SAVE UP TO <span>50%</span> IN THIS WEEK</h3>
+                            <p>Suspendisse varius turpis efficitur erat laoreet dapibus. Mauris sollicitudin
+                                scelerisque commodo.Nunc dapibus mauris sed metus finibus posuere.</p>
+                            <div class="icon col-md-4">
+                                <i class="far fa-user"></i>
+                                <h5>CUSTOMERS</h5>
+                                <h4 id="costumer"></h4>
+                            </div>
+                            <div class="icon col-md-4">
+                                <i class="fas fa-calendar-week"></i>
+                                <h5>EVENTS</h5>
+                                <h4 id="even"></h4>
+                            </div>
+                            <div class="icon col-md-4">
+                                <i class="fas fa-shield-alt"></i>
+                                <h5>AWARDS</h5>
+                                <h4 id="avard"></h4>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- sheadola ended -->
+    <!-- trending started -->
+    <div class="trending col-md-12">
+
+        <div class="trending-top col-md-11">
+            <div class="row">
+                <div class="trending-header col-md-12">
+                    <h1><span>WHAT'S</span> TRENDING</h1>
+                </div>
+                <div class="trending-girl-image-top col-md-5">
+                    <figure>
+                        <img src="images/bb1.jpg" alt="trending girl top">
+                        <figcaption>
+                            <h3><span>S</span>ale</h3>
+                            <h5>up to 55%</h5>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="trending-boot col-md-7">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="trending-boot-top">
+                                <figure>
+                                    <img src="images/bottom3.jpg" alt="dbl boot">
+                                    <figcaption>
+                                        <h3><span>S</span>ale</h3>
+                                        <h5>up to 55%</h5>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="trending-boot-bottom">
+                                <figure>
+                                    <img src="images/bottom4.jpg" alt="odd boot">
+                                    <figcaption>
+                                        <h3><span>S</span>ale</h3>
+                                        <h5>up to 65%</h5>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="trending-bottom">
+
+            <div class="row">
+                <div class="trending-girl-image-bottom  col-md-6">
+                    <figure>
+                        <div class="left-bottom"></div>
+                        <div class="top-right"></div>
+                        <img src="images/bot_1.jpg" alt="trending bottom girl image ">
+                        <figcaption>
+                            <h4>Flat <span>50%</span> offer</h4>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="trending-dress col-md-6">
+                    <figure>
+                        <div class="left-bottom"></div>
+                        <div class="top-right"></div>
+                        <img src="images/bot_2.jpg" alt="trending dress image ">
+                        <figcaption>
+                            <h4>Flat <span>50%</span> offer</h4>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <!-- trending ended -->
+    <!-- we offered started-->
+
+    <div class="we-offered">
+
+        <!-- <div class="row"> -->
+        <h1>We Offer Flat <span>40%</span> Discount</h1>
+        <div class="shop">
+            <a href="#">Shop Now</a>
+        </div>
+        <!-- </div> -->
+
+    </div>
+
+    <!-- we offered ended -->
+
+    <!-- cuppons started -->
+
+    <div class="coupons">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="coupon_line d-flex">
+                        <div class="coupons-i">
+                            <div class="coupon_ovarlay"></div>
+                            <i class="fa fa-truck" aria-hidden="true"></i>
+                        </div>
+                        <div class="coupons-text">
+                            <h3>FREE SHIPPING</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="coupon_line d-flex">
+                        <div class="coupons-i">
+                            <div class="coupon_ovarlay"></div>
+                            <i class="fa fa-headphones" aria-hidden="true"></i>
+                        </div>
+                        <div class="coupons-text">
+                            <h3>24/7 SUPPORT</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="coupon_line d-flex">
+                        <div class="coupons-i">
+                            <div class="coupon_ovarlay"></div>
+                            <i class="fa fa-shopping-bag" aria-hidden="true"></i>
+                        </div>
+                        <div class="coupons-text">
+                            <h3>MONEY BACK GUARANTEE</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="coupon_line d-flex">
+                        <div class="coupons-i">
+                            <div class="coupon_ovarlay"></div>
+                            <i class="fa fa-gift" aria-hidden="true"></i>
+                        </div>
+                        <div class="coupons-text">
+                            <h3>FREE GIFT COUPONS</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- cuppons ended -->
+    </div>
+    </div>
+    </main>
+    <!-- main ended -->
+
+    <!-- footer started -->
+    <!-- top footer started -->
+    <footer class="site-footer">
+        <div class="top-footer">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="footer-sosial col-md-3">
+                        <h4><span>E</span>lite Shoppy</h4>
+                        <p>Lorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi
+                            tempora.</p>
+                        <div class="sosial">
+                            <ul class="social-nav model-3d-0 footer-social w3_agile_social top_agile_third">
+                                <li><a href="#" class="facebook">
+                                        <div class="front"><i class="fab fa-facebook-f"></i></div>
+                                        <div class="back"><i class="fab fa-facebook-f"></i></div>
+                                    </a></li>
+                                <li><a href="#" class="twitter">
+                                        <div class="front"><i class="fab fa-twitter"></i></div>
+                                        <div class="back"><i class="fab fa-twitter"></i></div>
+                                    </a></li>
+                                <li><a href="#" class="instagram">
+                                        <div class="front"><i class="fab fa-instagram"></i></div>
+                                        <div class="back"><i class="fab fa-instagram"></i></div>
+                                    </a></li>
+                                <li><a href="#" class="pinterest">
+                                        <div class="front"><i class="fab fa-linkedin-in"></i></div>
+                                        <div class="back"><i class="fab fa-linkedin-in"></i></div>
+                                    </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-information col-md-3">
+                        <h4><span>OUR</span> INFORMATION</h4>
+                        <nav>
+                            <ul>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">Men's Wear</a></li>
+                                <li><a href="#">Women's wear</a></li>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Short Codes</a></li>
+                                <li><a href="#">Contact</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="footer-store col-md-3">
+                        <h4><span>STORE</span> INFORMATION</h4>
+                        <ul>
+                            <li class="row">
+                                <div class="col-md-2">
+                                    <i class="fas fa-phone"></i>
+                                </div>
+                                <div class="col-md-10">
+                                    <h6>Phone Number</h6>
+                                    <span>+1 234 567 8901</span>
+                                </div>
+                            </li>
+                            <li class="row">
+                                <div class="col-md-2">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+
+                                <div class="col-md-10">
+                                    <h6>Email Address</h6>
+                                    <h6><span>Email:</span><a href="#">mail@example.com</a></h6>
+                                </div>
+                            </li>
+                            <li class="row">
+                                <div class="col-md-2">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div class="col-md-10">
+                                    <h6>Location</h6>
+                                    <span>Broome St, NY 10002,California, USA.</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-post col-md-3 col-sm-6">
+                        <h4><span>FLICKR</span> POSTS</h4>
+                        <div class="grid-container col-md-12 col-sm-12">
+                            <div class="grid-item"><img src="images/t1.jpg" alt=""></div>
+                            <div class="grid-item"><img src="images/t2.jpg" alt=""></div>
+                            <div class="grid-item"><img src="images/t3.jpg" alt=""></div>
+                            <div class="grid-item"><img src="images/t4.jpg" alt=""></div>
+                            <div class="grid-item"><img src="images/t1.jpg" alt=""></div>
+                            <div class="grid-item"><img src="images/t2.jpg" alt=""></div>
+                            <div class="grid-item"><img src="images/t3.jpg" alt=""></div>
+                            <div class="grid-item"><img src="images/t2.jpg" alt=""></div>
+                            <div class="grid-item"><img src="images/t4.jpg" alt=""></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- top footer ended -->
+        <!-- center footer started -->
+        <div class="center-footer ">
+            <div class="center-footer-left container-fluid">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h4>SIGN UP FOR NEWSLETTER !</h4>
+                    </div>
+                    <div class="center-footer-right col-md-6">
+                        <input type="email" placeholder="Enter your email...">
+                        <button type="submit">SUBMIT</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- center footer ended -->
+        <!-- bottom footer started -->
+        <div class="bottom-footer">
+            <div class="container">
+                <div class="row">
+                    <span>&copy; 2017 Elite shoppy. All rights reserved &#124; Design by <a
+                            href="#">W3layouts</a></span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- bottom footer ended -->
+    <!-- footer ended -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="javascript/about.js"></script>
+</body>
+
+</html>
